@@ -2,6 +2,22 @@
 
 Download the latest executables and installers for all Video Editor applications.
 
+## Unified Video Editor (Original Repository)
+
+The original repository containing both Python and C# versions. This repository provides unified installers that can install either or both versions.
+
+### Unified Installer
+- **VideoEditor-Setup.exe** - Unified installer for both Python and C# versions
+  - Location: `Video_Editor/installer/VideoEditor-Setup.exe` (or build output)
+  - **Description**: Combined installer that allows you to install both the Python and C# versions of the Video Editor, or choose to install just one. Provides a single installation experience for users who want both options. Publisher: Robert Foster.
+
+### Python Installer (from Unified Repo)
+- **VideoEditor-Python-Setup.exe** - Python version installer from unified repository
+  - Location: `Video_Editor/installer/VideoEditor-Python-Setup.exe` (or build output)
+  - **Description**: Standalone Python Video Editor installer built from the unified repository. Includes all Python dependencies bundled. No Python installation required.
+
+---
+
 ## C# Video Editor (WPF)
 
 A professional video editing application built with C# and WPF, featuring a modern timeline interface, theme support, and comprehensive video editing capabilities.
